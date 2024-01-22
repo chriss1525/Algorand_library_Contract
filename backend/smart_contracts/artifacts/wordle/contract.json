@@ -1,0 +1,50 @@
+{
+    "name": "wordle",
+    "methods": [
+        {
+            "name": "start_game",
+            "args": [
+                {
+                    "type": "address",
+                    "name": "player1"
+                },
+                {
+                    "type": "address",
+                    "name": "player2"
+                }
+            ],
+            "returns": {
+                "type": "bool"
+            }
+        },
+        {
+            "name": "make_move",
+            "args": [
+                {
+                    "type": "address",
+                    "name": "player"
+                },
+                {
+                    "type": "string",
+                    "name": "guess"
+                }
+            ],
+            "returns": {
+                "type": "bool"
+            }
+        },
+        {
+            "name": "end_game",
+            "args": [
+                {
+                    "type": "address",
+                    "name": "player"
+                }
+            ],
+            "returns": {
+                "type": "bool"
+            }
+        }
+    ],
+    "networks": {}
+}
